@@ -1,4 +1,4 @@
-[demo链接](https://profitfrl.github.io/highlight-textarea/dist/index.html)
+[demo链接](https://profitfrl.github.io/highlight-textarea/dist/)
 ## 基本功能描述
 > 通过`input`、`textarea`实现可高亮的输入框，主要用来处理文本域、文本框关键词高亮显示
 
