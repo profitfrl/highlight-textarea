@@ -143,6 +143,7 @@ export default {
 <style lang="less">
 @width: 500px;
 .highlight-box {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
     display: flex;
     font-size: 12px;
@@ -154,6 +155,7 @@ export default {
     overflow: hidden;
     .textarea-outer,
     .input-outer {
+        box-sizing: border-box;
         width: @width;
         position: absolute;
         top: 0;
@@ -174,9 +176,9 @@ export default {
     .textarea-outer {
         overflow-y: auto;
         line-height: 20px;
-        word-break: break-word;
+        word-break: break-all;
         .outer-inner {
-            padding: 4px 8px;
+            padding: 5px 8px;
             width: 100%;
             box-sizing: border-box;
         }
@@ -201,11 +203,13 @@ export default {
     }
     textarea,
     input {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
         // position: relative;
         // z-index: 2;
         // 光标的颜色
-        color: #333333; 
-        // 文本颜色 
+        color: #333333;
+        // 文本颜色
         text-shadow: 0 0 0 rgba(0, 0, 0, 0);
         -webkit-text-fill-color: transparent;
         background: transparent;
